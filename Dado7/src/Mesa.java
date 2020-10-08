@@ -5,10 +5,10 @@ public class Mesa {
     private Crupier unCrupier;
     int totalDados = 0;
 
-    public Mesa() {
+    /*public Mesa() {
         this.unJugador = new Jugadores();
         this.unCrupier = new Crupier();
-    }
+    }*/
 
     public double CompararApuesta(){
 

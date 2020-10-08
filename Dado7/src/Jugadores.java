@@ -1,7 +1,18 @@
 import java.util.Scanner;
 
 public class Jugadores {
-    private Apuesta unaApuesta;
+
+    int documento;
+    String nombre;
+
+    public Jugadores(int documento, String nombre) {
+        this.documento = documento;
+        this.nombre = nombre;
+    }
+
+
+
+    /*private Apuesta unaApuesta;
     private Reglas unaRegla;
 
     public Jugadores() {
@@ -38,7 +49,7 @@ public class Jugadores {
         return unaRegla;
     }
 
-    /*public static void main(String[] args) {
+    *//*public static void main(String[] args) {
         Jugadores asd = new Jugadores();
         System.out.println("Valor deapuesta: "+ asd.unaApuesta.getUnaApuesta());
         asd.SelecRegla();
