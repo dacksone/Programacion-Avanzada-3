@@ -10,7 +10,7 @@ public class Mesa {
         this.unCrupier = new Crupier();
     }*/
 
-    public double CompararApuesta(){
+   /* public double CompararApuesta(){
 
         apuestaTotal = unJugador.getUnaApuesta().getUnaApuesta();
 
@@ -25,7 +25,7 @@ public class Mesa {
             apuestaTotal = apuestaTotal * 3;
             return apuestaTotal;
         }
-    }
+    }*/
 
     public Reglas CompararReglas(){
         int totalDados = 0;
@@ -44,7 +44,7 @@ public class Mesa {
         return apuestaTotal;
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Mesa mesa1 = new Mesa();
         System.out.println(mesa1.unCrupier.lanzarDado());
 
@@ -54,6 +54,6 @@ public class Mesa {
         System.out.println("El valor total es: "+mesa1.getApuestaTotal());
         System.out.println("La regla: " + mesa1.CompararReglas());
 
-    }
+    }*/
 
 }

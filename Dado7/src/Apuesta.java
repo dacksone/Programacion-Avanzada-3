@@ -11,10 +11,10 @@ import java.util.Scanner;
             this.cantJugadores = cantJugadores;
         }
 
-        public void validacionApuesta (){
-            double  topeApuesta=0;
-            if(valorApuesta > )
-        }
+//        public void validacionApuesta (){
+//            double  topeApuesta=0;
+//            if(valorApuesta > )
+//        }
 
 
 
